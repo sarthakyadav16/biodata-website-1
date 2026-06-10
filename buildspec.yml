@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No installation needed for static HTML site"
+
+  build:
+    commands:
+      - echo "Building static website..."
+      - echo "No build step required"
+
+  post_build:
+    commands:
+      - echo "Preparing files for deployment"
+
+artifacts:
+  files:
+    - '**/*'
